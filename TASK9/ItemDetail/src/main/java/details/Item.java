@@ -18,4 +18,12 @@ public class Item {
         double cost= ItemPrice*numberOfItem;
         return cost;
     }
+    public double exchangeRates(String from, String to, int numberOfItem){
+        double actualrate = rate.displayRate(from, to);
+        double cost=GetItemCost(numberOfItem);
+
+        double actualCost;
+        actualCost = cost;
+        return actualCost*actualrate;
+    }
 }
