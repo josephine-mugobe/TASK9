@@ -14,4 +14,8 @@ public class Item {
         this.ItemPrice=ItemPrice;
         this.Expired_date=Expired_date;
     }
+    public double GetItemCost(int numberOfItem){
+        double cost= ItemPrice*numberOfItem;
+        return cost;
+    }
 }
