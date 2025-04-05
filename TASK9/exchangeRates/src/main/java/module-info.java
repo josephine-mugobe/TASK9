@@ -1,0 +1,3 @@
+module exchangeRates {
+    exports exchange;
+}
