@@ -1,0 +1,3 @@
+module ItemDetail {
+    requires exchangeRates;
+}
